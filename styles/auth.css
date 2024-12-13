@@ -1,0 +1,46 @@
+/* Authentication page container */
+.auth-container {
+    background-color: #2e3b4e;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .auth-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #3f4a63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .auth-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .auth-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .auth-btn:disabled {
+    background-color: #c8e6c9; 
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
